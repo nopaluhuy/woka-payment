@@ -45,7 +45,6 @@
                         html.classList.remove('dark');
                     }
 
-                    // BODY AMAN (pasti ada karena Alpine jalan setelah DOM siap)
                     document.body.classList.toggle('bg-gray-900', this.theme === 'dark');
                 }
             });
