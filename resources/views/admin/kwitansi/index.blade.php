@@ -55,7 +55,7 @@
                                 <th class="px-4 py-3 text-left font-normal text-gray-500 dark:text-gray-400">Pembayaran</th>
                                 <th class="px-4 py-3 text-left font-normal text-gray-500 dark:text-gray-400">Peserta</th>
                                 <th class="px-4 py-3 text-left font-normal text-gray-500 dark:text-gray-400">File</th>
-                                <th class="px-4 py-3 text-right font-normal text-gray-500 dark:text-gray-400">Aksi</th>
+                                <th class="px-4 py-3 text-left font-normal text-gray-500 dark:text-gray-400">Aksi</th>
                             </tr>
                         </thead>
 
@@ -92,7 +92,7 @@
                                     </td>
 
                                     {{-- Aksi --}}
-                                    <td class="px-4 py-4 text-right">
+                                    <td class="px-4 py-4 ">
                                         <div class="inline-flex items-center gap-2">
 
                                             {{-- Regenerate disabled by policy — only manual upload/download allowed --}}

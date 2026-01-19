@@ -55,6 +55,11 @@ Route::middleware(['auth', 'role:admin'])
         Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
         Route::get('/dashboard/payments-data', [DashboardController::class, 'paymentsData'])->name('admin.dashboard.payments-data');
 
+        Route::get('/profile', [\App\Http\Controllers\Admin\ProfileController::class, 'edit'])
+            ->name('profile.edit');
+
+        Route::put('/profile', [\App\Http\Controllers\Admin\ProfileController::class, 'update'])
+            ->name('profile.update');
 
         // =========================
         // PESERTA (SEMUA)
